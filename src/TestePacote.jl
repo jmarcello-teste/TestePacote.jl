@@ -15,7 +15,7 @@ end
 
 function areatotal(raio, altura)
     println("Área total:")
-    return arealateral(raio, altura)*2*areaBC(raio)
+    return arealateral(raio, altura) + 2.*areaBC(raio)
 end
 
 function volcilindro(raio, altura)
